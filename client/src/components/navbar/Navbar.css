@@ -1,0 +1,31 @@
+.topnav {
+    overflow: hidden;
+    background-color: rgb(229 233 253);
+  } 
+  .topnav .logo{
+  float: left;  
+  height: 8vh;
+  width: 14.5%;
+  
+  background: #ffd11a;
+  background-image: url("../../../public/brightchampslogo.png");
+  background-size: contain;
+}  
+  .topnav a {
+    float: left;
+    color: #0a0a0a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #ffd11a;
+    color: white;
+  }
